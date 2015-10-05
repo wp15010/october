@@ -1,0 +1,149 @@
+body{
+	background-image: url(l_gin_tuki01.jpg);
+	background-repeat: no-repeat;
+}
+
+#text-class{
+	color:#ff0000;
+}
+
+#kunren {
+	color:#0000ff;
+}
+
+main p{
+	color: #00ff00;
+}
+
+/*div{
+	border:3px double #ff0000;
+	width: 500px;
+	height: 500px;
+	text-align: center}*/
+
+.outer-box{
+	border:3px double #ff0000;
+	width: 80%;
+	/*height: 500px;*/
+	text-align: center;
+	background: #eeeeee;
+	margin: 10px auto 10px auto;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	opacity: 0.5;
+}
+
+.inner-box {
+	border:2px solid #666666;
+	width: 20%;
+	height:200px;
+	background: #f6f6f6;
+	float: left;
+	margin:5px 5px 5px 5px;
+
+/*
+	margin:10px auto 10px;/*順番に上左右下
+	margin: 10px;/*四方向まとめて
+	margin: 10px 12px;/*最初が上下最後が左右
+	margin: 10px 8px 10px;/*最初が上真ん中が左右最後が下
+
+	padding: 20px 20px 20px 20px;
+*/
+}
+
+.clear{clear:both;}
+
+.section-box{
+	width:80%;
+	margin:10px auto 10px auto;
+	border:2px dotted #444444;
+	background: #eeeeee;
+	display: table;
+	opacity: 0.5;
+}
+
+.article-box{
+	border:1px solid #888888;
+	height:200px;
+	display: table-cell;
+}
+
+.position-wrapper{
+	width:80%;
+	margin: 12px auto;
+	border: 1px solid #333333;
+}
+
+.css-position , .no-position{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #666666;
+}
+
+.css-position{
+	background: #eeddee;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	z-index: 2;
+}
+
+.no-position{
+	background: #663333;
+	position: relative;
+	bottom: 10px;
+	left: 10px;
+	z-index: 1;
+}
+
+ul , ol {
+	list-style-type:none;
+	width:80%;
+	margin: auto;
+	padding: 0;
+	display: table;
+}
+
+ul li{display: table-cell;
+	margin:0;
+	background: #666666;
+	width:25%;
+	text-align: center;
+	padding:5px 0;
+	border:1px solid #ffffff;
+	box-sizing:border-box;
+}
+
+ul li:first-child{border-radius: 10px 0 0 10px}
+
+ul li:last-child{border-radius: 0 10px 10px 0}
+
+ol li{display: table-cell;
+	margin: 0 ;
+	background: #55ff00;
+	width: 20%;
+	text-align: center;
+	padding: 5px 0;
+	border:1px solid #ffffff;
+	box-sizing:border-box;
+	}
+
+ol li:first-child{border-radius: 10px 0 0 10px}
+
+ol li:last-child{border-radius: 0 10px 10px 0}
+
+a{color: #ffff00}
+
+a:hover{
+	color:#00ffff;
+}
+
+a:visited{
+	color: #888888;
+}
+
+a:active{
+	background: #000000;
+	color: #ffffff;
+}
