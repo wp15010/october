@@ -1,6 +1,11 @@
 body{
 	background-image: url(l_gin_tuki01.jpg);
 	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.gazou{
+	text-align: center;
 }
 
 #text-class{
@@ -12,7 +17,7 @@ body{
 }
 
 main p{
-	color: #00ff00;
+	color: #000000;
 }
 
 /*div{
@@ -146,4 +151,102 @@ a:visited{
 a:active{
 	background: #000000;
 	color: #ffffff;
+}
+
+table{
+	border:1px solid #666666;
+	/*-webkit-border-radius: 40px 30px 20px 10px;
+	-moz-border-radius: 40px 30px 20px 10px;*/
+	border-radius: 40px;
+	width: 80%;
+	margin: 10px auto;
+	box-shadow: 10px 10px 3px #cccccc;
+}
+
+table thead tr th{
+	background:-webkit-gradient(linear , left top bottom , from(#ffffff) ,to(#dfdfdf));
+	background:-webkit-linear-gradient(#777777 0% , #444444 50% , #333333 51% , #555555 100%);
+	font-weight: normal;
+	font-size: 20px;
+	border:1px solid #888888;
+	opacity: 0.9;
+	color: #ffffff;
+}
+
+td{text-align: center;}
+
+tr:nth-child(2n){
+	/*background: #e500e5;*/
+}
+
+thead tr th:first-child{
+	-webkit-border-radius:40px 0 0 0;
+	-moz-border-radius:40px 0 0 0;
+	border-radius: 40px 0 0 0;
+	opacity: 0.9;
+}
+
+thead tr th:last-child{
+	-webkit-border-radius:0 40px 0 0;
+	-moz-border-radius:0 40px 0 0;
+	border-radius:0 40px 0 0;
+	opacity: 0.9;
+}
+
+tbody tr th{
+	background: #777777;
+	font-weight: normal;
+	font-size: 20px;
+	border:1px solid #888888;
+	opacity: 0.9;
+}
+
+.last{
+	-webkit-border-radius:0 0 0 40px;
+	-moz-border-radius:0 0 0 40px;
+	border-radius: 0 0 0 40px;
+}
+
+.last-2{
+	-wedkit-border-radius:0 0 40px 0;
+	-moz-border-radius:0 0 40px 0;
+	border-radius: 0 0 40px 0;
+}
+
+tbody tr td{
+	background: #dfdfdf;
+	font-weight: normal;
+	font-size: 20px;
+	border:1px solid #888888;
+	opacity: 0.9;
+}
+
+td , th {
+	/*border:1px solid #dddddd;*/
+}
+
+//.tr-background{
+	background: #666666
+}
+
+caption{
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+a{text-decoration: none;
+}
+
+.form-ichiran{width: 70%;
+		line-height: 5px;
+	}
+
+h2::before , h2::after{
+	content: "☆";
+	color: #ff0000
+}
+
+input[type="text"]{
+	box-shadow: 2px 2px 2px #cccccc inset;
 }

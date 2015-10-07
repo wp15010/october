@@ -7,6 +7,10 @@
 		<meta name="description" content="職業訓練">
 		<meta name="keyword" content="html ,javascript ,
 		css , php ,java ,mySQL">
+<!--[if lt IE 10]>
+<style>
+</style>
+<![endif]-->
 	</head>
 	<body>
 		<hearder>
@@ -68,7 +72,6 @@
 	</div>
 	<!--ポジションここまで-->
 
-	
 	<ul>
 		<li><a href="http://pds.exblog.jp/pds/1/201506/14/96/a0156896_22433413.jpg">坂田銀時</a></li>
 		<li><a href="http://up.gc-img.net/post_img_web/2015/08/a79c7c39a15fd721d18fd66c3138a6fa_7683.jpeg">神楽</a></li>
@@ -82,50 +85,183 @@
 		<li>柳生九兵衛</li>
 		<li>今井信女</li>
 	</ol>
-<table>
-	
-	
-		<tr>
-			<th>銀時</th>
-			<th>神楽</th>
-			<th>新八</th>
-			<th>沖田</th>
-		</tr>
-	
-		<tr>
-			<td>銀ちゃん</td>
-			<td>グラサン</td>
-			<td>八つぁん</td>
-			<td>ドS</td>
-		</tr>
-	
-		<tr>
+
+<table cellspacing="0" cellpadding="10">
+	<caption>銀魂</caption>
+		<thead>
+			<tr>
+			<th></th>
+				<th scope="col">銀時</th>
+				<th scope="col">神楽</th>
+				<th scope="col">新八</th>
+				<th scope="col">沖田</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+			<th scope="row">吉田松陽</th>
+				<td>銀ちゃん</td>
+				<td>グラサン</td>
+				<td>八つぁん</td>
+				<td>ドS</td>
+			</tr>
+			<tr class="tr-background">
+			<th scope="row">神威</th>
 			<td>甘党</td>
 			<td>食いしん坊</td>
-			<td>普通</td>
+			<td>メガネ</td>
 			<td>タバスコ</td>
-		</tr>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<th scope="row">海坊主</th>
+				<td>銀ちゃん</td>
+				<td>グラサン</td>
+				<td>八つぁん</td>
+				<td>ドS</td>
+			</tr>
+			<tr class="tr-background">
+			<th scope="row">エリザベス</th>
+			<td>甘党</td>
+			<td>食いしん坊</td>
+			<td>メガネ</td>
+			<td>タバスコ</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+			<th scope="row">桂 小太郎</th>
+				<td>銀ちゃん</td>
+				<td>グラサン</td>
+				<td>八つぁん</td>
+				<td>ドS</td>
+			</tr>
+			<tr class="tr-background">
+			<th scope="row">高杉 晋助</th>
+			<td>甘党</td>
+			<td>食いしん坊</td>
+			<td>メガネ</td>
+			<td>タバスコ</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+			<th scope="row">来島 また子</th>
+				<td>銀ちゃん</td>
+				<td>グラサン</td>
+				<td>八つぁん</td>
+				<td>ドS</td>
+			</tr>
+			<tr class="tr-background">
+			<th scope="row">近藤 勲</th>
+			<td>甘党</td>
+			<td>食いしん坊</td>
+			<td>メガネ</td>
+			<td>タバスコ</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+			<th scope="row">パンデモニウム</th>
+				<td>銀ちゃん</td>
+				<td>グラサン</td>
+				<td>八つぁん</td>
+				<td>ドS</td>
+			</tr>
+			<tr class="tr-background">
+			<th scope="row">月詠</th>
+			<td>甘党</td>
+			<td>食いしん坊</td>
+			<td>メガネ</td>
+			<td>タバスコ</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+			<th class="row">たま</th>
+				<td>銀ちゃん</td>
+				<td>グラサン</td>
+				<td>八つぁん</td>
+				<td>ドS</td>
+			</tr>
+			<tr class="tr-background">
+			<th scope="row" class="last">ビチグソ丸</th>
+			<td>甘党</td>
+			<td>食いしん坊</td>
+			<td>メガネ</td>
+			<td class="last-2">タバスコ</td>
+			</tr>
+		</tbody>
 </table>
 
-<form action="form.html" method="get">
-	<p>
-		氏名<input type="text" name="name">
-	</p>
-	<p>
-	性別<input type="radio" name="seibetu" value="m">男性
-	<input type="radio" name="seibetu" value="f">女性
-	</p>
-	<p>
-		好きな料理は何ですか？<br>
-		<input type="checkbox" name="ryori" value="washoku">和食<br>
-		<input type="checkbox" name="ryori" value="chuka">中華<br>
-		<input type="checkbox" name="ryori" value="furence">フレンチ<br>
-		<input type="checkbox" name="ryori" value="italy">イタリアン<br>
-	</p>
+<h2>フォーム</h2>
 
-	<p>
-		<input type="submit" value="送信する">
-	</p>
+<form action="form.html" method="get">
+
+<table class="form-ichiran">
+	<tr>
+		<th>氏名</th>
+		<td>
+			<input type="text" name="name" required>
+		</td></tr>
+		<tr><th>電話番号</th>
+		<td>
+			<input type="text" name="phone" pattern="^[0-9]+">
+		</td></tr>
+		<tr><th>あ○○</th>
+		<td>
+			<input type="text" name="amarumaru" pattern="^あ..$">
+		</td>
+	</tr>
+
+	<tr><th>性別</th>
+	<td><input type="radio" name="seibetu" value="m">男性
+			<input type="radio" name="seibetu" value="f">女性
+			<input type="radio" name="seibetu" value="lgbt">その他</td></tr>
+
+
+		<tr><th>音楽</th>
+		<td><input type="radio" name="music" value="hip-hop">Hip-Hop
+				<input type="radio" name="music" value="torannsu">トランス
+				<input type="radio" name="music" value="J-Pop">J-pop
+				<input type="radio" name="music" value="J-Hip-Hop">J-Hip-Hop
+				<input type="radio" name="music" value="reger">レゲエ</td></tr>
+		<tr>
+			<th>好きな料理は何ですか？</th>
+			<td><input type="checkbox" name="ryori" value="washoku">和食
+			<input type="checkbox" name="ryori" value="chuka">中華
+			<input type="checkbox" name="ryori" value="furence">フレンチ
+			<input type="checkbox" name="ryori" value="italy">イタリアン</td>
+		</tr>
+<tr>
+	<th>性別</th>
+		<td><select name="select-seibetu">
+			<option velue="male">男性</option>
+			<option value="femal">女性</option>
+			<option value="other">その他</option>
+	</td>
+	</select>
+</tr>
+
+
+	<th>
+		コメント
+	</th>
+	<td>
+		<textarea name="comment" cols="40" rows="4">
+	もう耐えきれない
+		</textarea>
+	</td>
+		<tr>
+			<!--<button type="reset">リセットする</button>-->
+					<td colspan="2">
+						<input type="reset" value="リセットする">
+						<input type="submit" value="送信する">
+					</td>
+		</tr>
+</table>
 </form>
 
 
